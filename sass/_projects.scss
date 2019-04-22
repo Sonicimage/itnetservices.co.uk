@@ -1,0 +1,42 @@
+.cards {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: 0 auto;
+
+    .card-item {
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+        margin-bottom: 5rem;
+
+        @media screen and (min-width: 800px) {
+            width: 45%;
+        }
+
+        .card {
+            margin: 0;
+
+            .caption {
+                padding: 1.6rem;
+                background: $color-primary-light;
+                color: #fff;
+                font-size: 1.4rem;
+                transition: all .4s;
+                margin-top: -1rem;
+
+                .caption-title {
+                    margin: 0;
+                    padding: 1.3rem 0 1rem;
+                    font-size: 2rem;
+                    line-height: 1.5;
+                }
+            }
+            
+            .caption:hover {
+                background: $color-primary-dark;
+            }
+        }
+    }    
+}

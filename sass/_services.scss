@@ -1,0 +1,37 @@
+.services {
+    margin: 0;
+    padding: 2rem 0;
+    background-color: $color-background;
+    
+    .services-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        text-align: center;
+        margin-bottom: 1rem;
+
+        @media screen and (min-width: 600px) {
+            align-items: flex-start;
+        }
+    }
+
+    .article {        
+        padding-bottom: 3rem;
+        width: 80%;
+
+        @media screen and (min-width: 600px) {
+            width: 40%;            
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 20%;
+        }
+    }
+    
+    .icon {
+        width: 7rem;
+        height: 7rem;
+        margin-top: 2rem;
+    }
+}

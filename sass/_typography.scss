@@ -1,0 +1,51 @@
+ul {
+    font-size: 1.5rem;
+
+    li {
+        text-transform: none;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+h1 {
+    font-family: $font-heading;
+    font-size: 5rem;
+    color: $color-secondary;
+
+    @media screen and (min-width: 650px) {
+        font-size: 6rem;
+    }
+
+    @media screen and (min-width: 1000px) {
+        font-size: 7rem;
+    }
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: $font-subheading;
+    color: $color-secondary;
+    margin: 2rem 0;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 4rem;
+    }
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 1rem;
+}
+

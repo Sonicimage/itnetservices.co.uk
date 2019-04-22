@@ -1,0 +1,54 @@
+.header {
+    background-image: url(../img/bridge-hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    padding: 0;
+
+    .navbar {
+        background-color: $color-primary-dark;
+        height: 8rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+
+            @media screen and (min-width: 800px) {
+                width: 60%;
+            }
+
+            .menu-item {
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .hero-area {       
+        position: relative;
+
+        .logo-box {
+            position: absolute;
+            top: 3rem;
+            right: 5rem;
+
+            .logo {
+                width: 18rem;
+            }
+        }
+
+        .heading {
+            position: absolute;
+            top: 18rem;
+            left: 25%;
+            max-width: 70%;
+
+            @media screen and (min-width: 1600px) {
+                left: 30%;
+            }
+        }
+    }
+}
