@@ -64,7 +64,7 @@ address {
 }
 
 .header .navbar {
-  background-color: #054982;
+  background-color: #1b5fd4;
   height: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,7 +178,7 @@ ul li a {
 h1 {
   font-family: "Kaushan Script", cursive;
   font-size: 5rem;
-  color: #15673c;
+  color: #0c6e3c;
 }
 
 @media screen and (min-width: 650px) {
@@ -196,7 +196,7 @@ h1 {
 h2 {
   font-size: 3rem;
   font-family: "Roboto Slab", serif;
-  color: #15673c;
+  color: #0c6e3c;
   margin: 2rem 0;
 }
 
@@ -311,7 +311,7 @@ p {
 
 .cards .card-item .card .caption {
   padding: 1.6rem;
-  background: #1c7dd5;
+  background: #4a84e8;
   color: #fff;
   font-size: 1.4rem;
   -webkit-transition: all .4s;
@@ -327,7 +327,7 @@ p {
 }
 
 .cards .card-item .card .caption:hover {
-  background: #054982;
+  background: #1b5fd4;
 }
 
 .about-me {
@@ -385,7 +385,7 @@ footer {
           flex-flow: row wrap;
   -ms-flex-direction: column;
       flex-direction: column;
-  background-color: #054982;
+  background-color: #1b5fd4;
   text-align: center;
   color: #fff;
 }
@@ -423,7 +423,7 @@ footer .content-wrapper .social-icons {
 }
 
 footer .content-wrapper .social-icons p {
-  background-color: #1c7dd5;
+  background-color: #4a84e8;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
