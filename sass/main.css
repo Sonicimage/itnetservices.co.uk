@@ -54,6 +54,15 @@ address {
   padding: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 15rem auto;
+        grid-template-columns: 15rem auto;
+  }
+}
+
 .header .navbar {
   background-color: #054982;
   height: 8rem;
@@ -65,6 +74,18 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .header .navbar {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    height: auto;
+  }
 }
 
 .header .navbar .menu {
@@ -83,12 +104,34 @@ address {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header .navbar .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    line-height: 10rem;
+  }
+}
+
 .header .navbar .menu .menu-item {
   text-transform: uppercase;
 }
 
 .header .hero-area {
   position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .header .hero-area {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
 }
 
 .header .hero-area .logo-box {
@@ -106,6 +149,12 @@ address {
   top: 18rem;
   left: 25%;
   max-width: 70%;
+}
+
+@media screen and (min-width: 1200px) {
+  .header .hero-area .heading {
+    top: 25rem;
+  }
 }
 
 @media screen and (min-width: 1600px) {

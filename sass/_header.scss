@@ -5,12 +5,23 @@
     height: 95vh;
     padding: 0;
 
+    @media screen and (min-width: 1200px) {
+        display: grid;
+        grid-template-columns: 15rem auto;
+    }
+
     .navbar {
         background-color: $color-primary-dark;
         height: 8rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        @media screen and (min-width: 1200px) {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            height: auto;
+        }
 
         .menu {
             display: flex;
@@ -21,6 +32,12 @@
                 width: 60%;
             }
 
+            @media screen and (min-width: 1200px) {
+                flex-direction: column;
+                width: 100%;
+                line-height: 10rem;
+            }
+
             .menu-item {
                 text-transform: uppercase;
             }
@@ -29,6 +46,11 @@
 
     .hero-area {       
         position: relative;
+
+        @media screen and (min-width: 1200px) {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
 
         .logo-box {
             position: absolute;
@@ -45,6 +67,10 @@
             top: 18rem;
             left: 25%;
             max-width: 70%;
+
+            @media screen and (min-width: 1200px) {
+                top: 25rem;
+            }
 
             @media screen and (min-width: 1600px) {
                 left: 30%;
