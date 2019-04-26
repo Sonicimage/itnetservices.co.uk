@@ -3,6 +3,22 @@
     margin: 0 auto;
     padding-bottom: 3rem;
 
+    @media screen and (min-width: 850px) {
+        width: 70%;
+    }
+
+    @media screen and (min-width: 1000px) {   
+        width: 60%;
+    }
+
+    @media screen and (min-width: 1200px) {    
+        width: 70rem;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 80rem;
+    }
+
     .statement {
         font-family: $font-heading;
         font-size: 2.5rem;
@@ -15,23 +31,14 @@
     .about-content {
         padding: 2rem 0;
     }
-}
 
-@media screen and (min-width: 850px) {
-    .about-me {
-        width: 70%;
-    }
-}
+    .my-photo {
+        margin-bottom: 3rem;
 
-@media screen and (min-width: 1000px) {
-    .about-me {
-        width: 60%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .about-me {
-        width: 70rem;
+        .me {
+            padding: 1px;
+            border: 1px solid $color-primary-dark;
+        }
     }
 }
 

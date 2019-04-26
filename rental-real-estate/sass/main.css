@@ -218,6 +218,12 @@ header {
   position: relative;
 }
 
+@media only screen and (max-width: 800px) {
+  header {
+    background-image: url(../img/hero-image-small.jpg);
+  }
+}
+
 header .row {
   display: -webkit-box;
   display: -ms-flexbox;

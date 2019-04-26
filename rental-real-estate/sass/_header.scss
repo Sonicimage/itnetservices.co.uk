@@ -6,6 +6,10 @@ header {
     width: 100%;
     position: relative;
 
+    @media only screen and (max-width: 800px) {
+        background-image: url(../img/hero-image-small.jpg);
+    }
+
     .row {
         display: flex;
         justify-content: space-around;
