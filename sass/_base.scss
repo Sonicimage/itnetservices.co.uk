@@ -1,9 +1,9 @@
-$color-primary-light: #4a84e7;
+$color-primary-light: #1c7dd5;
 $color-primary-dark: #1b5fd4;
 $color-secondary: #0c6e3b;
 $color-background: #e8ebef;
 
-$font-body: 'Open Sans', sans-serif;
+$font-body: 'Roboto', sans-serif;
 $font-heading: 'Kaushan Script', cursive;
 $font-subheading: 'Roboto Slab', serif;
 
@@ -22,7 +22,7 @@ html {
 .site {
     font-family: $font-body;
     line-height: 1.5;
-    color: #333;
+    color: #000;
 }
 
 ul {
@@ -52,5 +52,7 @@ img {
 address {
     font-style: normal;
 }
+
+
 
 
